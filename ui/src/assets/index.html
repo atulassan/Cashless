@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Cashless" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/assets/manifest.json" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <!--main styles-->
+
+    <!-- Froala Editor -->
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/froala_editor.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/code_view.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/draggable.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/colors.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/emoticons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/image_manager.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/image.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/line_breaker.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/table.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/char_counter.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/video.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/fullscreen.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/file.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/quick_insert.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/help.css">
+    <link rel="stylesheet" type="text/css" href="/assets/editor/css/plugins/special_characters.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/jquery.datetimepicker.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/chosen.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+
+    <title>Cashless</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="supportContainer">
+        <div id="root"></div>
+    </div>
+    
+    <div class="popUp-backdrop-dark"></div>
+    <div class="popUp-backdrop"></div>
+    <div class="popUp-backdrop-transparent"></div>
+
+    <script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/vendor/popper.min.js"></script>
+    <script type="text/javascript" src="/assets/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/vendor/chosen.js"></script>
+    <script type="text/javascript" src="/assets/js/vendor/bootstrap-tagsinput.min.js"></script>
+
+    <!-- For froala editor-->
+    <script type="text/javascript" src="/assets/editor/js/froala_editor.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/align.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/char_counter.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/code_beautifier.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/code_view.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/colors.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/draggable.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/emoticons.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/entities.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/file.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/font_size.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/font_family.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/fullscreen.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/image.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/image_manager.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/line_breaker.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/inline_style.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/link.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/lists.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/paragraph_format.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/paragraph_style.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/quick_insert.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/quote.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/table.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/save.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/url.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/video.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/help.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/print.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/special_characters.min.js"></script>
+    <script type="text/javascript" src="/assets/editor/js/plugins/word_paste.min.js"></script>
+
+   
+    <script type="text/javascript" src="/assets/js/vendor/jquery.datetimepicker.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="/assets/js/datatrans-2.0.0.js"></script>
+
+  </body>
+</html>
